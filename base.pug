@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        title Best Dance Academy
+        block scripts
+        block style
+       
+    body
+        nav#navbar 
+            ul
+               div#logo
+                   img(src="/static/logo1.png")
+                   | BDA
+               li #[a(href="/") Home]
+               li #[a(href="/") about]
+               li #[a(href="/") services] 
+               li #[a(href="/") class info] 
+               li #[a(href="/") contact us]
+
+    block content
+    block foot
+        footer#footer
+         | Copyright © 2023 BestDanceAcademy.com  |  ALL RIGHT RESERVED!!

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding:0px;
+}
+h1{
+    text-align: center;
+    margin:12px 0;
+}
+.container{
+    min-height: 70vh;
+    margin:43px 0;
+    
+}
+.conatiner h1{
+    font-family: 'Monomaniac One', sans-serif;
+}
+.myForm{
+ display:flex;
+ flex-direction:column; 
+ justify-content: center;
+ align-items: center;
+ 
+}
+.myInput{
+    width: 45%;
+    font-size: 14px;
+    padding: 9px;
+    margin: 5px;
+    border-radius: 9px;
+    border: 2px solid #ce5959;
+    outline:none;
+
+}
+.btn{
+    padding:12px 16px;
+    font-size: 18px;
+    border:2px solid red;
+    border-radius:10px;
+    color:white;
+    background:rgb(164, 130, 130);
+    cursor:pointer;
+    margin-bottom: 10px;
+    outline:none;
+}
